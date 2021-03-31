@@ -9,6 +9,7 @@ package tree.binaryTree.implementation;
    Preorder (Root, Left, Right) : 1 2 4 5 3
    Inorder (Left, Root, Right): 4 2 5 1 3
    Postorder (Left, Right, Root) : 4 5 2 3 1
+   주석 변경
  */
 public class Test {
 
