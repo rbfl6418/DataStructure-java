@@ -8,7 +8,7 @@ public class CastingTest1 {
 		FireEngine fe2 = null;
 		
 		car = fe;
-		//car.water(); -> 컴파일 에러 
+		//car.water(); -> 컴파일 에러  
 		fe2 = (FireEngine)car; // 얘도 부모 -> 자식으로 형변환인데 왜 되는 것?
 		fe2.water();
 		fe2.drive();

@@ -8,7 +8,7 @@ public class CastingTest2 {
 		FireEngine fe = null;
 		
 		car.drive();
-		fe = (FireEngine)car; //컴파일 - OK, 실행 시 에러 발생 
+		fe = (FireEngine)car; //컴파일 - OK, 실행 시 에러 발생  
 		fe.drive();
 		car2 = fe;
 		car2.drive();
